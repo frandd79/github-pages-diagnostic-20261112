@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Privacidad — Discovery Lab Nova</title>
+<style>body{margin:0;background:#f4f6f8;color:#172b3a;font:18px/1.65 system-ui,sans-serif}main{max-width:760px;margin:3rem auto;padding:2rem;background:white;border:1px solid #dce3e8;border-radius:12px}nav{display:flex;gap:1.5rem;margin-bottom:2rem}a{color:#175e83;text-underline-offset:3px}a:focus-visible{outline:3px solid #175e83;outline-offset:5px}h1{font-size:2rem;line-height:1.2}h2{font-size:1.2rem;margin-top:2rem}.eyebrow{font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;color:#506774}.note{border-left:4px solid #175e83;padding:.75rem 1rem;background:#eef5f9}footer{border-top:1px solid #dce3e8;margin-top:2rem;padding-top:1rem;font-size:.9rem;color:#506774}@media(max-width:600px){main{margin:0;padding:1.5rem;border:0;border-radius:0}h1{font-size:1.7rem}}</style>
+</head>
+<body><main>
+<nav aria-label="Navegación principal"><a href="index.html">Inicio</a><a href="privacy.html">Privacidad</a></nav>
+<p class="eyebrow">Uso personal de datos</p>
+<h1>Política de privacidad</h1>
+<p>Esta política describe el uso previsto de <strong>Discovery Lab Nova — Solo lectura</strong>, un cliente personal operado por el propio titular de la cuenta dedicada. No se ofrece registro ni acceso a terceros. La conexión permanece pendiente de autorización y validación.</p>
+<h2>Qué datos se consultan y para qué</h2>
+<p>El cliente utiliza rclone y las API de Google para consultar informes de Discovery Lab de una carpeta privada de intercambio: contenido de los documentos y metadatos necesarios para identificarlos, verificar su procedencia, permisos, integridad y versiones. Descarga los informes autorizados al mini-PC del titular para su consulta y validación local.</p>
+<p>Se solicita exclusivamente <code>drive.readonly</code>. Este permiso no concede escritura, pero su alcance real comprende todos los archivos de Drive accesibles a la cuenta. La carpeta seleccionada es una restricción del programa, no del token.</p>
+<h2>Almacenamiento y conservación</h2>
+<p>Los informes descargados y los registros operativos se conservan localmente bajo control del titular. Los registros pueden incluir identificadores, fechas, resultados y hashes de integridad. Las credenciales se guardan por separado, con acceso local restringido, fuera de esta web y del repositorio público.</p>
+<p>No se establece un borrado automático por plazo. El titular decide cuándo eliminar las copias locales y sus registros. Si existen copias de seguridad, debe gestionar también su conservación y eliminación; no se promete borrado inmediato de esas copias.</p>
+<h2>Comunicación y usos excluidos</h2>
+<p>El circuito de lectura comunica las solicitudes necesarias a Google y devuelve los datos al equipo del titular. No publica los informes ni los envía a GitHub. Este cliente no vende datos, no los utiliza para publicidad y no los envía a proveedores de modelos para entrenamiento o inferencia.</p>
+<p>Los datos de Google se utilizarán únicamente para las finalidades aquí descritas, de acuerdo con la <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Datos del Usuario de los Servicios de las APIs de Google</a>, incluidos sus requisitos de uso limitado. Cualquier uso futuro distinto debe revisarse antes de activarse.</p>
+<h2>Revocación y eliminación</h2>
+<p>El titular puede retirar el acceso desde <a href="https://myaccount.google.com/connections">las conexiones de su cuenta Google</a> y dejar de ejecutar el cliente. Revocar el acceso impide nuevas lecturas autorizadas, pero no elimina los informes ya descargados. Para eliminarlos debe borrar sus copias locales y revisar las copias de seguridad que conserve.</p>
+<h2>Esta web informativa</h2>
+<p>Las páginas no incorporan formularios, analítica, publicidad, JavaScript ni cookies propias. El alojamiento previsto es GitHub Pages. GitHub registra datos técnicos de las visitas, incluida la dirección IP por motivos de seguridad, conforme a su <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">declaración de privacidad</a>. Al seguir un enlace externo se aplican las prácticas del sitio de destino.</p>
+<h2>Responsable y consultas</h2>
+<p>El responsable de esta configuración personal es su titular y único usuario. El correo de asistencia se muestra en la configuración de consentimiento de Google. No deben enviarse informes privados, contraseñas ni tokens mediante comentarios públicos del repositorio.</p>
+<footer>Discovery Lab Nova · Uso personal · Información actualizada el 11 de noviembre de 2026.</footer>
+</main></body>
+</html>
